@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Jost:wght@400;600;700&display=swap");
+@font-face {
+  font-family: KonexyPeronalUse;
+  src: url(./assets/font/KonexyPersonal/KonexyPersonal/KonexyPersonalUse.otf);
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/font/gilroy/gilroy/Gilroy-Black.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
+}
+:root {
+  /* -----FONT SIZE---- */
+  --fs-xsm: 19px;
+  --fs-sm: 24px;
+  --fs-md: 32px;
+  --fs-lg: 36px;
+  --fs-xl: 48px;
+  --fs-xxl: 64px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* -------FONT SIZE------- */
+.fs_xsm {
+  font-size: var(--fs-xsm);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fs_sm {
+  font-size: var(--fs-sm) !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fs_md {
+  font-size: var(--fs-md);
 }
-
-.App-link {
-  color: #61dafb;
+.fs_lg {
+  font-size: var(--fs-lg);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_xxl {
+  font-size: var(--fs-xxl);
+}
+.ff_inter {
+  font-family: "Inter", sans-serif;
+}
+.ff_jost {
+  font-family: "Jost", sans-serif;
+}
+.ff_kon {
+  font-family: KonexyPeronalUse;
+}
+.ff_gil {
+  font-family: Gilroy;
 }
