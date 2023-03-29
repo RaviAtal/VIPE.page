@@ -1,9 +1,11 @@
 import React from "react";
+import Nav_bar from "./Nav_bar";
 
 function Header() {
   return (
     <>
-      <section className="bg-black">
+      <section className="bg-black min-vh-100">
+        <Nav_bar />
         <div className="container py-4 py-lg-5">
           <div className="row">
             {/* text_part */}
