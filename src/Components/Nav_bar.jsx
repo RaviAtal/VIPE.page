@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/image/svj/Logo.svg";
+import Logo from "../assets/image/svg/Logo.svg";
 import glob from "../assets/image/png/global_img.png";
 import menu from "../assets/image/png/menu.png";
 
@@ -139,7 +139,7 @@ function Nav_bar() {
             <div className="d-xxl-none">
               <img className="w_40" src={menu} alt="menu" />
             </div>
-            <div className="d-none d-xxl-flex">
+            <div className="d-none d-xxl-flex me-xl-5 pe-xl-5">
               <ul className="d-flex align-items-center gap-4 mb-0">
                 <li>
                   <a className="text-white ff_gil fs_xsm fw_400" href="/">

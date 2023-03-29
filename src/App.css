@@ -86,3 +86,10 @@
 .w_40 {
   width: 40px;
 }
+
+@media (min-width: 768px) {
+  .col_md_6 {
+    flex: 0 0 auto;
+    width: 48% !important;
+  }
+}
