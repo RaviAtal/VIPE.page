@@ -7,7 +7,7 @@ function Nav_bar() {
   return (
     <>
       <nav>
-        <div className="container pl-4 py-lg-5">
+        <div className="container py-4 py-lg-5">
           <div className="d-flex align-items-center justify-content-between">
             <div className="d-lg-none">
               <img src={Logo} alt="Logo" />
@@ -140,7 +140,7 @@ function Nav_bar() {
               <img className="w_40" src={menu} alt="menu" />
             </div>
             <div className="d-none d-xxl-flex">
-              <ul className="d-flex align-items-center gap-4">
+              <ul className="d-flex align-items-center gap-4 mb-0">
                 <li>
                   <a className="text-white ff_gil fs_xsm fw_400" href="/">
                     1 888 266-6917 (eu?)
