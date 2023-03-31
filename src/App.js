@@ -6,11 +6,15 @@ import VipeStudio from "./Components/VipeStudio";
 import Long_term from "./Components/Long_term";
 import WordPress from "./Components/WordPress";
 import Team from "./Components/Team";
+import FeaturedOn from "./Components/FeaturedOn";
+import Integer from "./Components/Integer";
 
 function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
+      <FeaturedOn />
+      <Integer />
       <VipeStudio />
       <Long_term />
       <WordPress />

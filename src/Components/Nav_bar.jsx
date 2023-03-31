@@ -88,8 +88,8 @@ function Nav_bar() {
                   </li>
                 </ul>
               </li>
-              <li>
-                <a className="text-white ff_gil fs_xsm fw_400" href="/">
+              <li className="position-relative">
+                <a className="text-white ff_gil fs_xsm fw_400 hover_1" href="/">
                   Portfolio
                 </a>
               </li>
@@ -130,8 +130,8 @@ function Nav_bar() {
                   </li>
                 </ul>
               </li>
-              <li>
-                <a className="text-white ff_gil fs_xsm fw_400" href="/">
+              <li className="position-relative">
+                <a className="text-white ff_gil fs_xsm fw_400 hover_1" href="/">
                   Blog
                 </a>
               </li>
